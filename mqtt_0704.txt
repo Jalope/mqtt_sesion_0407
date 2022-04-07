@@ -1,0 +1,469 @@
+Script iniciado en 2022-04-07 11:30:31+02:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="87" LINES="38"]
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ script sesion.txt[7Pwaumash002rm escudo.png [9Pls -hs[Kfind "*tex"[4Pcd prpa~[K~[Kcd ~prpafind "*tex"ls[K -shrm escudo.png [4Pwaumash002script sesion.txt[Kscript sesion.txt[7Pwaumash002rm escudo.png [9Pls -hs[Kfind "*tex"[4Pcd prpa~[K~[Kcd prpa[2P..[1P..find . -name "*py" | xargs -I{} grep "radius" {}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull[Kfind . -name "*py" | xargs -I{} grep "radius" {}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kfind . - radius "*py"[4P[C[C[C[C[C[C[C[C[C[C[C[Crm -r ejemplos_newls[Kcp  escudo.png ejemplos_new/escudo.png [4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8P-r escudo.png / ejemplos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcp -r ejemplos/ ejemplos_new[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K -a -lrm *just*[1Pls -a -l[Kcd ..ls -a -l[Kcd examenes/[3Pls -a -l [1Pgit pushll [1Pshcommit add datos_09.txt[4Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pgit pullshcommit datos_09.txt[Kadd datos_09.txt[9Pcommit [3Ppullshcommit [3Ppullshcommitadd datos_09.txt[4Pcat[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd prpa/vi datos_09.txt[1@cat[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit pushllstatus[1Ppush commit datos_09.txt[2Ppush[C[C[C[C[C[C[C[C[C[C[C[C[C[2@commit[C[C[C[C[C[C[C[C[C[C[C[C[C[3Padd[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ktouch datos_09.txt[2@git add[C[C[C[C[C[C[C[C[C[C[C[C[C[3@commit[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ppush[C[C[C[C[C[C[C[C[C[C[C[C[C[2@commit[C[C[C[C[C[C[C[C[C[C[C[C[Cpush [Kstatus[2Ppullshls[Kcat datos_09.txt[1Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pcd prpa/ls[Kcat datos_09.txt[4@git add[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcommit[2Ppushllcommit [3Ppushllcommit add datos_09.txt[9Pcommit datos_09.txtpush[Kllcat datos_09.txt[4@git add[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcommit [3Ppushll [1Pshls -a -l cd examenes/ls[K -a -l[3Pcd ..[3Pls -a -lrm *just*[1Pls -a -l[Kcp ejemplos/ ejemplos_new[3@-r [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcp -r escudo.png / ejemplos escudo.png ejemplos/escudo.png [4@_new[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -r ejemplos_new[1Pfind radius "*py"[4@. - [C[C[C[C[C[C[C[C[C[C[C[Cclear[Kfind . -name "*py" | xargs -I{} grep "radius" {}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull[Kfind . -name "*py" | xargs -I{} grep "radius" {}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd..[K ..prpa~[Kcd ~prpafind "*tex"ls[K -shrm escudo.png [4Pwaumash002script sesion.txt[Kpython3 02_combine_numbers.py wild.ucm.es "clients/[K[K[K[K[K[K[K[K[K[K
+Traceback (most recent call last):
+  File "02_combine_numbers.py", line 85, in <module>
+    main(broker)
+  File "02_combine_numbers.py", line 75, in main
+    mqttc.connect(broker)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 02_combine_numbers.py wild.ucm.esmucm.esaucm.estucm.es.ucm.es
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b''
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Sending SUBSCRIBE (d0, m1) [(b'numbers', 0)]
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received SUBACK
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (1 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'8'
+timer working. timeout: 3.040805506318951
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'51'
+timer end working
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'47'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.5713651963148361'
+invalid literal for int() with base 10: b'0.5713651963148361'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'91'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.7152393149443615'
+invalid literal for int() with base 10: b'0.7152393149443615'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.48912581436731684'
+invalid literal for int() with base 10: b'0.48912581436731684'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (20 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.018638649058233203'
+invalid literal for int() with base 10: b'0.018638649058233203'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.0820874922144259'
+invalid literal for int() with base 10: b'0.0820874922144259'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'28'
+timer working. timeout: 19.798925324186214
+LOG {'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f731dd36978>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.6377208978115892'
+invalid literal for int() with base 10: b'0.6377208978115892'
+^CProcess Process-2:
+Traceback (most recent call last):
+  File "02_combine_numbers.py", line 85, in <module>
+    main(broker)
+  File "02_combine_numbers.py", line 77, in main
+    mqttc.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1756, in loop_forever
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "02_combine_numbers.py", line 48, in timer
+    sleep(time)
+KeyboardInterrupt
+    rc = self._loop(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 02_combine_numbers.py wild.mat.ucm.es[4Pucm.es[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pscript sesion.txtpython3 02_combine_numbers.py wild.ucm.esmat.ucm.es[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpython3 02_combine_numbers.py wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es1 wild.mat.ucm.es_broker_test.py wild.mat.ucm.es[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "clients/timerstop"
+MESSAGE: None clients/timerstop 0 b'timer working. timeout: 4.483767229327182' 0
+MESSAGE: None clients/timerstop 0 b'timer working. timeout: 0.8724877815698373' 0
+MESSAGE: None clients/timerstop 0 b'timer working. timeout: 0.8724877815698373' 0
+MESSAGE: None clients/timerstop 0 b'timer working. timeout: 14.262335494836051' 0
+^CTraceback (most recent call last):
+  File "01_broker_test.py", line 21, in <module>
+    main(broker, topic)
+  File "01_broker_test.py", line 12, in main
+    mqttc.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 01_broker_test.py wild.mat.ucm.es "clients/timerstop"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16P2_combine_numbers.py wild.mat.ucm.es[C[C[C[C[C[C[C[C[C[C[C[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es3 wild.mat.ucm.es_temperatures.py wild.mat.ucm.es
+on_message temperature/t1 b'28'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'28']}}
+on_message temperature/t2 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'28'], 't2': [b'30']}}
+on_message temperature/t1 b'29'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'29'], 't2': [b'30']}}
+on_message temperature/t2 b'28'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'29'], 't2': [b'28']}}
+on_message temperature/t1 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'30'], 't2': [b'28']}}
+on_message temperature/t2 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'30'], 't2': [b'30']}}
+on_message temperature/t1 b'31'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'31'], 't2': [b'30']}}
+on_message temperature/t2 b'32'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'31'], 't2': [b'32']}}
+on_message temperature/t1 b'32'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'32'], 't2': [b'32']}}
+on_message temperature/t2 b'32'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'32'], 't2': [b'32']}}
+on_message temperature/t1 b'33'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33'], 't2': [b'32']}}
+on_message temperature/t2 b'31'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33'], 't2': [b'31']}}
+mean t1: 33.0
+mean t2: 31.0
+on_message temperature/t1 b'34'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34'], 't2': [b'31']}, 't1': [], 't2': []}
+on_message temperature/t2 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34'], 't2': [b'31', b'35']}, 't1': [], 't2': []}
+on_message temperature/t1 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35'], 't2': [b'31', b'35']}, 't1': [], 't2': []}
+on_message temperature/t2 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35'], 't2': [b'31', b'35', b'35']}, 't1': [], 't2': []}
+on_message temperature/t1 b'36'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36'], 't2': [b'31', b'35', b'35']}, 't1': [], 't2': []}
+on_message temperature/t2 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36'], 't2': [b'31', b'35', b'35', b'35']}, 't1': [], 't2': []}
+on_message temperature/t1 b'37'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37'], 't2': [b'31', b'35', b'35', b'35']}, 't1': [], 't2': []}
+on_message temperature/t2 b'36'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37'], 't2': [b'31', b'35', b'35', b'35', b'36']}, 't1': [], 't2': []}
+on_message temperature/t1 b'38'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38'], 't2': [b'31', b'35', b'35', b'35', b'36']}, 't1': [], 't2': []}
+on_message temperature/t2 b'39'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39']}, 't1': [], 't2': []}
+mean t1: 35.5
+mean t2: 35.166666666666664
+on_message temperature/t1 b'39'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39']}, 't1': [], 't2': []}
+on_message temperature/t2 b'40'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40']}, 't1': [], 't2': []}
+on_message temperature/t1 b'0'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40']}, 't1': [], 't2': []}
+on_message temperature/t2 b'2'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2']}, 't1': [], 't2': []}
+on_message temperature/t1 b'1'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2']}, 't1': [], 't2': []}
+on_message temperature/t2 b'0'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0']}, 't1': [], 't2': []}
+on_message temperature/t1 b'2'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0']}, 't1': [], 't2': []}
+on_message temperature/t2 b'3'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3']}, 't1': [], 't2': []}
+on_message temperature/t1 b'3'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3']}, 't1': [], 't2': []}
+on_message temperature/t2 b'5'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5']}, 't1': [], 't2': []}
+on_message temperature/t1 b'4'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5']}, 't1': [], 't2': []}
+on_message temperature/t2 b'5'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5']}, 't1': [], 't2': []}
+on_message temperature/t1 b'5'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5']}, 't1': [], 't2': []}
+on_message temperature/t2 b'5'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5']}, 't1': [], 't2': []}
+on_message temperature/t1 b'6'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5']}, 't1': [], 't2': []}
+on_message temperature/t2 b'4'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4']}, 't1': [], 't2': []}
+mean t1: 19.5
+mean t2: 19.642857142857142
+on_message temperature/t1 b'7'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4']}, 't1': [], 't2': []}
+on_message temperature/t2 b'7'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7']}, 't1': [], 't2': []}
+on_message temperature/t1 b'8'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7']}, 't1': [], 't2': []}
+on_message temperature/t2 b'10'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7', b'10']}, 't1': [], 't2': []}
+on_message temperature/t1 b'9'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7', b'10']}, 't1': [], 't2': []}
+on_message temperature/t2 b'9'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7', b'10', b'9']}, 't1': [], 't2': []}
+on_message temperature/t1 b'10'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9', b'10'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7', b'10', b'9']}, 't1': [], 't2': []}
+on_message temperature/t2 b'10'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9', b'10'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7', b'10', b'9', b'10']}, 't1': [], 't2': []}
+on_message temperature/t1 b'11'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9', b'10', b'11'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7', b'10', b'9', b'10']}, 't1': [], 't2': []}
+on_message temperature/t2 b'9'
+on_message {'lock': <unlocked _thread.lock object at 0x7f379f3916e8>, 'temp': {'t1': [b'33', b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2', b'3', b'4', b'5', b'6', b'7', b'8', b'9', b'10', b'11'], 't2': [b'31', b'35', b'35', b'35', b'36', b'39', b'40', b'2', b'0', b'3', b'5', b'5', b'5', b'4', b'7', b'10', b'9', b'10', b'9']}, 't1': [], 't2': []}
+^CTraceback (most recent call last):
+  File "03_temperatures.py", line 43, in <module>
+    main(broker)
+  File "03_temperatures.py", line 31, in main
+    sleep(8)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 03_temperatures.py wild.mat.ucm.es1_broker_test.py wild.mat.ucm.es "clients/timerstop"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"t"e"m"p"e"r"a"t"u"r"e"/"#"
+MESSAGE: None temperature/t1 0 b'23' 0
+MESSAGE: None temperature/t2 0 b'21' 0
+MESSAGE: None temperature/t1 0 b'24' 0
+MESSAGE: None temperature/t2 0 b'23' 0
+MESSAGE: None temperature/t1 0 b'25' 0
+MESSAGE: None temperature/t2 0 b'26' 0
+MESSAGE: None temperature/t1 0 b'26' 0
+MESSAGE: None temperature/t2 0 b'24' 0
+MESSAGE: None temperature/t1 0 b'27' 0
+MESSAGE: None temperature/t2 0 b'27' 0
+MESSAGE: None temperature/t1 0 b'28' 0
+MESSAGE: None temperature/t2 0 b'26' 0
+^CTraceback (most recent call last):
+  File "01_broker_test.py", line 21, in <module>
+    main(broker, topic)
+  File "01_broker_test.py", line 12, in main
+    mqttc.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 01_broker_test.py wild.mat.ucm.es "temperature/#"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P3_temperatures.py wild.mat.ucm.es[C[C[C[C[C[C[C[C[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es[1P wild.mat.ucm.es4 wild.mat.ucm.es_humidity.py wild.mat.ucm.es
+message:temperature/t1:b'39':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 39, suscribiendo a humidity
+message:temperature/t1:b'0':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'22':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'1':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'2':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'29':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'3':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'27':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'35':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'4':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'5':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'6':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'28':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'35':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'7':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'8':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'9':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'10':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'40':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'11':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'12':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'36':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'13':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'14':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'15':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'34':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'42':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'16':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'38':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'17':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'18':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'19':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'40':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'20':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'42':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'21':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'42':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'22':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'23':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'44':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'43':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'52':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'24':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'25':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'26':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'45':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'27':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'48':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'28':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'50':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'29':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'30':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'56':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'31':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'57':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'32':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'49':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'34':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'59':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'35':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'51':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'36':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'58':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'37':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'58':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'55':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'38':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'59':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'60':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'39':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'0':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'59':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'1':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'61':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'64':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'2':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'69':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'67':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'3':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'71':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'4':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'69':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'5':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'6':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'64':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'7':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'69':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'69':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'67':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'67':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'8':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'9':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'78':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'10':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'70':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'11':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'12':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'13':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'14':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'73':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'77':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'15':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'16':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'17':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'80':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'77':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'18':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'84':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 84 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'19':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'20':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'21':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 21, suscribiendo a humidity
+message:humidity:b'81':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 81 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'22':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 22, suscribiendo a humidity
+message:temperature/t1:b'23':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'24':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'81':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 81 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'25':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 25, suscribiendo a humidity
+message:temperature/t1:b'26':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'88':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 88 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'27':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 27, suscribiendo a humidity
+message:humidity:b'85':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 85 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'28':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 28, suscribiendo a humidity
+message:temperature/t1:b'29':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'93':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 93 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'30':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 30, suscribiendo a humidity
+message:temperature/t1:b'31':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'89':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 89 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'32':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 32, suscribiendo a humidity
+message:humidity:b'93':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 93 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 33, suscribiendo a humidity
+message:temperature/t1:b'34':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'90':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 90 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'35':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 35, suscribiendo a humidity
+message:humidity:b'94':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 94 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'36':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 36, suscribiendo a humidity
+message:humidity:b'92':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 92 superado, cancelando suscripciÃ³n
+message:temperature/t1:b'37':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 37, suscribiendo a humidity
+message:temperature/t1:b'38':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'98':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+umbral humedad 98 superado, cancelando suscripciÃ³n
+^CTraceback (most recent call last):
+  File "04_humidity.py", line 49, in <module>
+    main(broker)
+  File "04_humidity.py", line 41, in main
+    mqttc.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 04_humidity.py wild.mat.ucm.es
+message:temperature/t1:b'2':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'3':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'4':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'5':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'6':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'7':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+message:temperature/t1:b'8':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+^CTraceback (most recent call last):
+  File "04_humidity.py", line 49, in <module>
+    main(broker)
+  File "04_humidity.py", line 41, in main
+    mqttc.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 04_humidity.py wild.mat.ucm.es
+message:temperature/t1:b'23':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 23, suscribiendo a humidity
+message:humidity:b'32':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'24':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'25':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'38':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'38':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'43':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'26':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'40':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'27':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'28':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'29':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'30':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'31':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'45':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'32':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'33':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'38':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'46':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'34':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'43':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+^CTraceback (most recent call last):
+  File "04_humidity.py", line 49, in <module>
+    main(broker)
+  File "04_humidity.py", line 41, in main
+    mqttc.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 04_humidity.py wild.mat.ucm.es1_broker_test.py wild.mat.ucm.es "temperature/#"[C[C[C[C[C[C[C[C[C[C[C[1P"t"1"
+MESSAGE: None temperature/t1 0 b'0' 0
+MESSAGE: None temperature/t1 0 b'1' 0
+MESSAGE: None temperature/t1 0 b'2' 0
+MESSAGE: None temperature/t1 0 b'3' 0
+MESSAGE: None temperature/t1 0 b'4' 0
+^CTraceback (most recent call last):
+  File "01_broker_test.py", line 21, in <module>
+    main(broker, topic)
+  File "01_broker_test.py", line 12, in main
+    mqttc.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+]0;jalope01@simba: ~/mgtt[01;32mjalope01@simba[00m:[01;34m~/mgtt[00m$ python3 01_broker_test.py wild.mat.ucm.es "temperature/t1"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20P4_humidity.py wild.mat.ucm.es1_broker_test.py wild.mat.ucm.es "temperature/t1"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kexit
+
+Script terminado en 2022-04-07 11:37:58+02:00 [CÓDIGO_SALIDA_ORDEN="1"]
